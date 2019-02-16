@@ -1,0 +1,4 @@
+title,desc,code
+Javascript,filter,"var arr = [23,44,55,32]; var newArr =  arr.filter(obj => {obj > 30});"
+Html,nav,<nav></nav>
+Css,flex,display: flex

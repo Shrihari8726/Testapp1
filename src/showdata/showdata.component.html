@@ -1,0 +1,13 @@
+
+<div class="datagrid" *ngIf="showdatas.length > 0">
+<ul *ngFor="let showdata of showdatas">
+  <li>
+     Title:{{showdata.title}}
+  </li>
+  <li>
+     Descripton: {{showdata.desc}}
+  </li>
+  <li>
+     Code: {{showdata.code}}
+  </li>
+</ul>

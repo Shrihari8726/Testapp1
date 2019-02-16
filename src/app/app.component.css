@@ -1,0 +1,11 @@
+.container-fluid{
+    background-color: darkslategray;
+}
+
+.navbar-brand{
+    font-size: 18px;
+}
+
+.navbar-nav{
+    font-size: 14px;
+}

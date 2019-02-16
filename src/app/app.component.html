@@ -1,0 +1,20 @@
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="">CTMS</a>
+    </div>
+    <ul class="nav navbar-nav" style="width: 90%;">
+      <li class="active" (click)=showCourses(0)><a href="#">HTML</a></li>
+      <li (click)=showCourses(1)><a href="#">CSS</a></li>
+      <li (click)=showCourses(2)><a href="#">Javascript </a></li>
+      <li (click)=showCourses(3)><a href="#">Bootstrap</a></li>
+      <li style="top: 8px;float:right"><input class="form-control" type="text"  placeholder="Search"></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="data-display">
+  <app-showdata [showdatas]="coursesArr"></app-showdata>
+</div>
+
+<router-outlet></router-outlet>
